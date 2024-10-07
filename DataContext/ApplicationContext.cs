@@ -6,7 +6,7 @@ namespace EFCoreRelation.DataContext;
 public class ApplicationContext:DbContext
 {
     public DbSet<Category> Categories { get; set; }
-    public DbSet<Product> Type { get; set; }
+    public DbSet<Product> Products { get; set; }
     public DbSet<Company> Companies { get; set; }
     public DbSet<Employee> Employees { get; set; }
     public DbSet<Student> Students { get; set; }
